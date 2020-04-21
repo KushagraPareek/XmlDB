@@ -1,0 +1,21 @@
+To run this project make a folder named woco /db of exide database, inside this folder 
+place all the files present in the zip.
+open query and evaluate it.
+
+Example to evaluate query 1. open file q1.xql inside exide and hit eval to see the answer.
+
+Files:
+
+woco.xml : xml instance
+company.xsd : schema
+q1.xql Query1
+q2.xql Query2
+q3.xql Query3
+q4.xql Query4
+q5.xql Query5
+valid.xql is the schema validator.
+
+Implementation details, 
+Root element is woco, this element may contain any number of company or person element.
+company and person element are of complex type.
+There strcture can be understood from the schema document.

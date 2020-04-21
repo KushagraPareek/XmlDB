@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+I pledge my honor that all parts of this project were done by me alone and
+without collaboration with anybody else or using code from external sources.
+
+CSE532 :Project 3
+File name: woco.xml
+Author: Name:Kushagra Pareek (SBU Id: 112551443)
+Brief description: The xml data file
+-->
+<wc:woco xmlns:wc="http://kush.pareek.com/wocoSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="company.xsd">
+    
+    <company cId="c1">
+	  <name>QUE</name>
+	  <shares>150000</shares>
+	  <sharePrice>30</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Accounting</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p3"/>
+		<boardMember member="p1"/>
+		<boardMember member="p4"/>
+	  </board>
+	  <ownership>
+	    <owns who="c2">
+		 <amount>10000</amount>
+		</owns>
+		<owns who="c4">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="c8">
+		 <amount>30000</amount>
+		</owns>
+	  </ownership>
+	  <ownedby>
+	    <owns who="p3">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="p5">
+		 <amount>50000</amount>
+		</owns>
+		<owns who="p7">
+		 <amount>30000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c2">
+	  <name>RHC</name>
+	  <shares>250000</shares>
+	  <sharePrice>20</sharePrice>
+	  <industries>
+		<industry>Accounting</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p2"/>
+		<boardMember member="p1"/>
+		<boardMember member="p5"/>
+	  </board>
+	  <ownedby>
+	    <owns who="p3">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="p4">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="p5">
+		 <amount>70000</amount>
+		</owns>
+		<owns who="p6">
+		 <amount>40000</amount>
+		</owns>
+		<owns who="p7">
+		 <amount>-9000</amount>
+		</owns>
+		<owns who="p8">
+		 <amount>60000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	 <company cId="c3">
+	  <name>Alf</name>
+	  <shares>10000000</shares>
+	  <sharePrice>700</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Automotive</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p6"/>
+		<boardMember member="p7"/>
+		<boardMember member="p1"/>
+	  </board>
+	  <ownership>
+	    <owns who="c9">
+		 <amount>-100000</amount>
+		</owns>
+		<owns who="c4">
+		 <amount>400000</amount>
+		</owns>
+		<owns who="c8">
+		 <amount>100000</amount>
+		</owns>
+	  </ownership>
+	  <ownedby>
+	    <owns who="p4">
+		 <amount>500000</amount>
+		</owns>
+		<owns who="p6">
+		 <amount>500000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c4">
+	  <name>Elgog</name>
+	  <shares>1000000</shares>
+	  <sharePrice>400</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Search</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p5"/>
+		<boardMember member="p6"/>
+		<boardMember member="p7"/>
+	  </board>
+	  <ownership>
+	    <owns who="c6">
+		 <amount>5000</amount>
+		</owns>
+	  </ownership>
+	  <ownedby>
+	    <owns who="p2">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="p7">
+		 <amount>30000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c5">
+	  <name>Tfos</name>
+	  <shares>10000000</shares>
+	  <sharePrice>300</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Hardware</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p2"/>
+		<boardMember member="p4"/>
+		<boardMember member="p5"/>
+	  </board>
+	  <ownership>
+	    <owns who="c6">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c7">
+		 <amount>50000</amount>
+		</owns>
+		<owns who="c1">
+		 <amount>200000</amount>
+		</owns>
+	  </ownership>
+	  <ownedby>
+	    <owns who="p1">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="p3">
+		 <amount>800000</amount>
+		</owns>
+		<owns who="p4">
+		 <amount>40000</amount>
+		</owns>
+		<owns who="p7">
+		 <amount>300000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c6">
+	  <name>Ohay</name>
+	  <shares>180000</shares>
+	  <sharePrice>50</sharePrice>
+	  <industries>
+		<industry>Search</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p2"/>
+		<boardMember member="p4"/>
+		<boardMember member="p8"/>
+	  </board>
+	  <ownedby>
+	    <owns who="p5">
+		 <amount>50000</amount>
+		</owns>
+		<owns who="p8">
+		 <amount>-40000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c7">
+	  <name>Gnow</name>
+	  <shares>150000</shares>
+	  <sharePrice>300</sharePrice>
+	  <industries>
+		<industry>Search</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p2"/>
+		<boardMember member="p3"/>
+		<boardMember member="p4"/>
+	  </board>
+	  <ownedby>
+	    <owns who="p2">
+		 <amount>40000</amount>
+		</owns>
+		<owns who="p7">
+		 <amount>80000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c8">
+	  <name>Elpa</name>
+	  <shares>9000000</shares>
+	  <sharePrice>300</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Hardware</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p2"/>
+		<boardMember member="p3"/>
+		<boardMember member="p8"/>
+	  </board>
+	  <ownership>
+	    <owns who="c4">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c5">
+		 <amount>20000</amount>
+		</owns>
+	  </ownership>
+	  <ownedby>
+	    <owns who="p1">
+		 <amount>100000</amount>
+		</owns>
+		<owns who="p5">
+		 <amount>90000</amount>
+		</owns>
+		<owns who="p8">
+		 <amount>30000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<company cId="c9">
+	  <name>Ydex</name>
+	  <shares>5000000</shares>
+	  <sharePrice>100</sharePrice>
+	  <industries>
+		<industry>Software</industry>
+		<industry>Search</industry>
+	  </industries>
+	  <board>
+	    <boardMember member="p6"/>
+		<boardMember member="p3"/>
+		<boardMember member="p8"/>
+	  </board>
+	  <ownedby>
+	    <owns who="p6">
+		 <amount>-40000</amount>
+		</owns>
+		<owns who="p8">
+		 <amount>-80000</amount>
+		</owns>
+	  </ownedby>
+	</company>
+	
+	<person pId="p1">
+      <name>Bill Doe</name>
+	  <boardMemberOf>
+	    <companyServing serve="c1"/>
+		<companyServing serve="c2"/>
+		<companyServing serve="c3"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c5">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c8">
+		 <amount>100000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p2">
+      <name>Bill Seth</name>
+	  <boardMemberOf>
+	    <companyServing serve="c2"/>
+		<companyServing serve="c5"/>
+		<companyServing serve="c6"/>
+		<companyServing serve="c7"/>
+		<companyServing serve="c8"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c7">
+		 <amount>40000</amount>
+		</owns>
+		<owns who="c4">
+		 <amount>20000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p3">
+      <name>John Smyth</name>
+	  <boardMemberOf>
+	    <companyServing serve="c1"/>
+		<companyServing serve="c7"/>
+		<companyServing serve="c8"/>
+		<companyServing serve="c9"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c1">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="c2">
+		 <amount>20000</amount>
+		</owns>
+		<owns who="c5">
+		 <amount>800000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p4">
+      <name>Anne Smyle</name>
+	  <boardMemberOf>
+	    <companyServing serve="c1"/>
+		<companyServing serve="c5"/>
+		<companyServing serve="c6"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c2">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c5">
+		 <amount>40000</amount>
+		</owns>
+		<owns who="c3">
+		 <amount>500000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p5">
+      <name>Steve Lamp</name>
+	  <boardMemberOf>
+	    <companyServing serve="c2"/>
+		<companyServing serve="c4"/>
+		<companyServing serve="c5"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c8">
+		 <amount>90000</amount>
+		</owns>
+		<owns who="c1">
+		 <amount>50000</amount>
+		</owns>
+		<owns who="c6">
+		 <amount>50000</amount>
+		</owns>
+		<owns who="c2">
+		 <amount>70000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p6">
+      <name>May Serge</name>
+	  <boardMemberOf>
+	    <companyServing serve="c3"/>
+		<companyServing serve="c4"/>
+		<companyServing serve="c9"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c8">
+		 <amount>-10000</amount>
+		</owns>
+		<owns who="c9">
+		 <amount>-40000</amount>
+		</owns>
+		<owns who="c3">
+		 <amount>500000</amount>
+		</owns>
+		<owns who="c2">
+		 <amount>40000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p7">
+      <name>Bill Public</name>
+	  <boardMemberOf>
+	    <companyServing serve="c3"/>
+		<companyServing serve="c4"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c7">
+		 <amount>80000</amount>
+		</owns>
+		<owns who="c4">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c1">
+		 <amount>30000</amount>
+		</owns>
+		<owns who="c5">
+		 <amount>300000</amount>
+		</owns>
+		<owns who="c2">
+		 <amount>-9000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+	<person pId="p8">
+      <name>Muck Lain</name>
+	  <boardMemberOf>
+	    <companyServing serve="c6"/>
+		<companyServing serve="c8"/>
+		<companyServing serve="c9"/>
+	  </boardMemberOf>
+	  <ownership>
+	    <owns who="c2">
+		 <amount>60000</amount>
+		</owns>
+		<owns who="c6">
+		 <amount>-40000</amount>
+		</owns>
+		<owns who="c9">
+		 <amount>-80000</amount>
+		</owns>
+		<owns who="c8">
+		 <amount>30000</amount>
+		</owns>
+	  </ownership>
+	</person>
+	
+    
+	
+</wc:woco>
